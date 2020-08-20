@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+  html, 
+  body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #e6e6e6;
+  }
+  .page-wrapper{
+    max-width: 1080px;
+    margin: auto;
+  }
+  #section1photo img{
+    width: 100%;  
+    height: auto;
+    position: relative;
+  }

@@ -1,0 +1,13 @@
+iframe {
+     width:70%;
+     height:100%;
+     box-sizing: border-box;
+     float: left;
+     display: block;
+}
+.facebookplugin{
+     width: 30%;
+     box-sizing: border-box;
+     float: right;
+     display: block;
+}

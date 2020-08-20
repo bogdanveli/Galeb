@@ -1,0 +1,160 @@
+@media only screen and (min-width: 600px){
+  .footer {
+    max-width: 1080px;
+    margin: auto;
+  }
+}
+.footer {
+  background-color: #155eb1;;
+  color:  #E0E0E0;
+  height: 300px;
+  position: relative;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+.footer .footer-content{
+  height: 300px;
+  display: flex;
+
+
+}
+.footer .footer-content .footer-section{
+  flex: 1;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: justify;
+}
+#imefooter{
+  margin-top: 22.4px;
+  font-size: 1.4em;
+  text-align: center;
+}
+.footer-section.about > p{
+  text-align: justify;
+}
+.footer .footer-content .about .socials{
+  width: 45px;
+  height: 41px;
+  margin: auto;
+  margin-top: 40px;
+
+}
+.footer .footer-content .about .socials a{ /*facebook logo*/
+  width: 45px;
+  height: 41px;
+  padding-top: 5px;
+  font-size: 2.1em;
+  transition: all .3s;
+  text-decoration: none; 
+  color:#E0E0E0;
+  padding: 6px;
+
+}
+
+.footer .footer-content .links ul {
+  padding: 0;
+}
+.footer .footer-content .links ul a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    transition: all .3s;
+    color: #E0E0E0;
+    text-decoration: none;
+   
+}
+.footer .footer-content .links ul li{
+list-style-position: inside;
+list-style: none;
+}
+
+#quicklinks {
+  text-align: center;
+  font-size: 1.4em;
+
+}
+.footer .footer-content .links ul a{
+  text-align: center;
+  display: block;
+}
+.footer .footer-content .links ul a:hover{
+  color: #17abe6;
+  margin-left: 15px;
+  transition: all .3s;
+  font-size: 1.3em;
+}
+
+.footer .footer-content .contact span{
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.footer .footer-content .contact span a{
+  color: #E0E0E0;
+  text-decoration: none;
+}
+.footer .footer-content .contact span a:hover{
+  color: #17abe6;
+  margin-left: 15px;
+  transition: all .3s;
+  font-size: 1.3em;
+}
+.footer .footer-content .contact h3{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.4em;
+}
+
+
+/* Copyright*/
+.footer .footer-bottom{
+  background-color: #003570;
+  color: #E0E0E0;
+  height: 50px;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+  width: 100%;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+  .footer {
+    height: auto;
+  }
+  .footer .footer-content{
+    height: auto;
+    flex-direction: column;
+  }
+  body > div.footer > div.footer-bottom{
+    height: auto;
+  }
+  body > div.footer > div.footer-content > div.footer-section.contact{
+    height: 2px;
+    width: auto;
+    box-sizing: border-box;
+  }
+  .footer .footer-bottom{
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    height: auto;
+    padding: 20px;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  #imefooter{
+    text-align: center;
+  }
+  body > div.footer > div.footer-content > div.footer-section.contact > span:nth-child(n){
+    text-align: center;  /*telefonski broevi*/
+  }
+  body > div.footer > div.footer-content > div.footer-section.links > ul > a:nth-child(n){
+    margin: 0;
+    padding: 0;
+    padding-bottom: 25px;
+  }
+}

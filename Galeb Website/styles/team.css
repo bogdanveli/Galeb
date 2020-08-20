@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+}
+html, 
+body{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #e6e6e6;
+}
+
+.page-wrapper{
+  max-width: 1080px;
+  margin: auto;
+}
+
+body > div.page-wrapper > h2{    /*Наслов за нашиот тим*/
+      color: #155eb1;
+      font-size: 30px;
+      font-weight: 500;
+      margin-bottom: 5px;
+      padding-left: 50px;
+} 
+
+.page-wrapper .row{
+  margin: auto;
+  width: auto;
+}
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+
+  body > div.page-wrapper > h2{    /*Наслов за нашиот тим*/
+    color: #155eb1;
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-left: 0px;
+} 
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.card  .container {
+  padding: 0;
+
+}
+.card .container p{
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-weight: 500;
+}
+
+body > div.page-wrapper > div.row > div:nth-child(n) > div > div > h3{
+
+  background-color: #155eb1;
+  color: white;
+  margin: 0;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: -4px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (min-width: 1080px) {  /* samo za max shirinu*/
+  .card .container {
+    height: 180px;
+  }
+}
+#aboutteam > #abouttext{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #DBDFE3;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+#abouttext > h4{
+  text-align: center;
+  color: #155eb1;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 1080px)
+{
+  video {
+    width: 64%;
+    height: auto;
+    box-sizing: border-box;
+  }
+
+  #aboutteam > #abouttext{
+    width: 30.3%;
+    float: left;
+    box-sizing: border-box;
+  }
+  #aboutteam{
+    height: auto;
+    margin-top: 10px;
+    height: 400px;
+  }
+}

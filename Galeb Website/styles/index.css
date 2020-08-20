@@ -1,0 +1,451 @@
+*{
+  box-sizing: border-box;
+}
+html, 
+body{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #e6e6e6;
+  font-family: 'Fira Sans', sans-serif; 
+}
+body > div.page-wrapper > div > h1{
+  color: #155eb1;
+}
+.page-wrapper{
+  max-width: 1080px;
+}
+/*  слика и наслов*/
+#title-galeb > img{
+  width: 100%;  
+  height: auto;
+  position: relative;
+}
+
+#textnaslov > h2{
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  color :#155eb1;
+  font-size: 185%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #e6e6e6;
+  margin: 0;
+}
+
+#linija{
+  background-color: #155eb1;
+  height: 5px;
+} 
+
+/* END текст преко слику */
+
+
+  /* POST SLIDER*/
+  .post-slider{
+    margin-top: -15px;
+    position: relative;
+    margin-bottom: -10px;
+    background-color: #DBDFE3;
+    margin-top: -20px;
+
+  }
+  .post-slider .next{
+    top: 45%;
+    position: absolute;
+    right: 15px;
+    font-size: 2em;
+    cursor: pointer;
+    color:#155eb1;
+  }
+  .post-slider .prev{
+    top: 45%;
+    position: absolute;
+    left: 15px;
+    font-size: 2em;
+    cursor: pointer;
+    color:#155eb1;
+  }
+  .post-slider .slider-title{
+    text-align: center;
+    margin: 30px auto;
+    margin-bottom: 15px;
+    font-size: 200%;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+  .post-slider .post-wrapper{
+ 
+    width: 84%;
+    height: 330px;
+    margin: 0px auto;  /* horizontaly centralized*/
+    overflow: hidden;
+    
+  }
+  .post-slider .post-wrapper .post{
+    background-color: #DBDFE3;
+    display: inline-block;
+    margin: 0px 10px;
+    width: 300px;
+    height: 330px;
+  }
+  .post-slider .post-wrapper .post .slider-image {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 13px;
+  }
+
+  .post-slider .post-wrapper .post .post-info{
+    height: auto;
+    width: 100%;
+    background-color: #b9cfe8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 13px;
+
+  }
+  .post-slider .post-wrapper .post .post-info h4{
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    margin: 10px;
+  }
+/* END POST SLIDER*/
+
+/* counter za kandidati*/
+
+/*
+#shiva
+{
+  width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  float:left;
+  margin:5px;
+}
+.count
+{
+  line-height: 100px;
+  color:white;
+  margin-left:30px;
+  font-size:25px;
+}
+#talkbubble {
+   width: 120px;
+   height: 80px;
+   background: red;
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+  float:left;
+  margin:20px;
+}
+#talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid red;
+   border-bottom: 13px solid transparent;
+}
+
+.linker
+{
+  font-size : 20px;
+  color: black;
+}
+*/
+
+/*counter za kandidati*/
+
+
+  /* Why us*/
+.why-us{
+  background-color: #155eb1;
+}
+.why-us > ul{
+  padding-left: 15%;
+  padding-right: 15%;
+  list-style: none;
+}
+body > div.page-wrapper > div.why3 > ul{
+  margin-top: 0px;
+}
+body > div.page-wrapper > div.why-us > ul > li:nth-child(3){
+ padding-bottom: 20px;
+}
+.why-us > ul > li > div > div.photos{
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+}
+.why-us > ul > li > div > .text-photos{
+  color: #E0E0E0;
+  text-align: center;
+}
+body > div.page-wrapper > div.why-us > ul > li > div > div.text-photos > h4{
+  font-weight: 400;
+  margin-top: -10px;
+  font-size: 18px;
+
+}
+body > div.page-wrapper > div.why-us > ul > hr:nth-child(6){
+  background-color: white;
+  padding-top: 2px;
+  opacity: 0.3;
+}
+.line{
+  background-color: white;
+  padding-top: 0.5px;
+  opacity: 0.75;
+  margin-bottom: 40px;
+}
+/* why-us END */
+
+
+
+/* Middle */
+
+@media only screen and (max-width: 600px){  /* Mobile Middle */
+  #middlephoto > img{
+    width: 100%;  
+    height: auto;
+    position: relative;
+  }
+  #middleicon > img{
+    height: 180px;
+    margin: auto;
+    display: flex;
+    margin-top: -20px;
+  }
+  #middle-side{
+    margin: 10%;
+    margin-bottom: 5px;
+  }
+  #middle-side > h4{
+    background-color: #DBDFE3;
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #155eb1;
+    margin-bottom: 0;
+  }
+
+}
+
+@media only screen and (min-width: 600px){  /* Desktop Middle */
+  #middle{
+    box-sizing: border-box;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+  }
+  #middlephoto{
+    width: 60%;
+    float: left;
+    height: 100%;
+    display: flex;
+    background-color: #DBDFE3;
+    }
+   
+  #middlephoto > img {
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    border-radius: 5%;
+
+  }
+  #middle-side{
+    width: 35%;
+    float: right;
+    height: 400px;
+    box-sizing: border-box;
+  }
+  
+  #middleicon{
+    width: auto;
+    height: auto;
+  }
+  #middle-side > h4{
+    width: auto;
+    margin: 10px;
+    color: #155eb1;
+    text-align: center;
+    padding: 20px;
+    background-color: #DBDFE3;
+    font-weight: 500;
+
+  }
+  #middleicon > img{
+    margin: 25%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+
+  }
+}
+
+/* END Middle */
+
+
+
+/* why3 */
+.why3{
+  background-color: #DBDFE3;
+}
+.why3 > h3{
+  padding:0;
+  margin: 0;
+  padding-top: 30px;        /* tekst iznad ikone */
+  font-size: 24px;
+  font-weight: 500;
+  color: #155eb1;
+  text-align: center;
+}
+.why3 > ul{
+  padding-left: 15%;
+  padding-right: 15%;
+  list-style: none;
+}
+body > div.page-wrapper > div.why3> ul > li:nth-child(3){
+ padding-bottom: 20px;
+}
+.why3 > ul > li > div > div.photos{
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+
+}
+.why3 > ul > li > div > .text-photos{
+  color: #155eb1;
+  text-align: center;
+}
+body > div.page-wrapper > div.why3 > ul > li > div > div.text-photos > h4{
+  font-weight: 400;
+  margin-top: -10px;
+  font-size: 18px;
+
+}
+body > div.page-wrapper > div.why3 > ul > hr:nth-child(6){
+  background-color: #155eb1;
+  padding-top: 2px;
+  
+}
+body > div.page-wrapper > div.why3 > ul > li:nth-child(n) > hr{
+  background-color: #155eb1;
+  margin-bottom: 20px;
+}
+
+
+/* why3 END*/
+
+
+/* Desktop version */
+
+  @media only screen and (min-width: 600px){
+   
+    
+    #title-galeb > img{
+      width: 100%;  
+      height: 450px;
+      position: relative;
+    }
+    .page-wrapper{
+      max-width: 1080px;
+      margin: auto;
+    }
+    body > div.page-wrapper > div.post-slider > h1{
+      font-size: 35px;
+    }
+ /* why3 desktop version */
+    .why3 > ul{
+      padding-left: 0;
+      padding-right: 0;
+      height: auto;
+      overflow: hidden;
+    }
+    .why3 > ul > li{
+      margin: 0;
+      padding: 0;
+      float: left;
+      width: 33.33%;
+    }
+    body > div.page-wrapper > div.why3 > ul > li:nth-child(n) > div > div.text-photos > h4{
+     font-size: 18px;
+     font-weight: 400;
+    }
+    body > div.page-wrapper > div.why3 > ul > li:nth-child(n) > div{
+      height: 240px;
+    }
+    body > div.page-wrapper > div.why3 > ul > li > hr{
+     margin-left: 20px;
+     margin-right: 20px;
+    }
+    
+    .why3 > ul > li > div > div.text-photos{
+    margin-left: 40px;
+    margin-right: 40px;
+    }
+    .why3 > ul > li:nth-child(n) > hr{
+      margin: 0;
+    }
+    body > div.page-wrapper > div.why3 > ul > li:nth-child(n) > div > div.photos > img{
+      width: 60%;
+      margin-left: 36px;
+    }
+ /* why3 desktop version END */
+
+
+
+    /* why-us desktop version */
+    .why-us > ul{
+      padding-left: 0;
+      padding-right: 0;
+      height: auto;
+      overflow: hidden;
+    }
+   .why-us > ul > li{
+      margin: 0;
+      padding: 0;
+      float: left;
+      width: 33.33%;
+   }
+   body > div.page-wrapper > div.why-us > ul > li:nth-child(n) > div > div.text-photos > h4{
+     font-size: 18px;
+     font-weight: 400;
+   }
+   body > div.page-wrapper > div.why-us > ul > li:nth-child(n) > div{
+      height: 240px;
+   }
+   body > div.page-wrapper > div.why-us > ul > li > hr{
+     margin-left: 20px;
+     margin-right: 20px;
+   }
+   
+  .why-us > ul > li > div > div.text-photos{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .why-us > ul > li:nth-child(n) > hr{
+      margin: 0;
+  }
+  body > div.page-wrapper > div.why-us > ul > li:nth-child(n) > div > div.photos > img{
+      width: 60%;
+      margin-left: 36px;
+  }
+  /* END why-us desktop version */
+
+ }/* END Desktop version */
+  
